@@ -226,8 +226,8 @@
                 <configuration>
                     <mainClass>CnaePipelineKt</mainClass>
                     <arguments>
-                        <argument>--project=api-project-92760753129</argument>
-                        <argument>--tempLocation=gs://dados-cnpj-eduardo-2022/temp</argument>
+                        <argument>--project=nome_do_projeto</argument>
+                        <argument>--tempLocation=gs://nome_do_bucket/temp</argument>
                         <argument>--runner=DataflowRunner</argument>
                         <argument>--region=us-central1</argument>
                     </arguments>
