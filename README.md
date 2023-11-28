@@ -1,6 +1,7 @@
 # cnpj-dataflow
 
-This is a Maven Java project that uses Apache Beam to process CNPJ data.
+This is a Maven Java project that uses Apache Beam to process Brazilian companies public data.
+The Receita Federal do Brasil (RFB) provides monthly updated files with all Brazilian companies public data. These files are available at [https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj](https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj)
 
 ## Project Structure
 
