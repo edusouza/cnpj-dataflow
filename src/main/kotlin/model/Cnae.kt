@@ -1,7 +1,7 @@
 package model
 
-import org.apache.beam.sdk.coders.AvroCoder
 import org.apache.beam.sdk.coders.DefaultCoder
+import org.apache.beam.sdk.extensions.avro.coders.AvroCoder
 
 @DefaultCoder(AvroCoder::class)
 data class Cnae(
