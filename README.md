@@ -1,38 +1,38 @@
 # cnpj-dataflow
 
-Este é um projeto Java Maven que utiliza o Apache Beam para processar dados do CNPJ.
+This is a Maven Java project that uses Apache Beam to process CNPJ data.
 
-## Estrutura do Projeto
+## Project Structure
 
-O projeto está estruturado da seguinte maneira:
+The project is structured as follows:
 
-- `src/main/kotlin`: Contém o código fonte do projeto.
-    - `AllFilesPipelines.kt`: Descrição do arquivo.
-    - `converter`: Contém classes para converter dados.
-    - `EmpresaTransformer.kt`: Descrição do arquivo.
-    - `extensions`: Descrição do diretório.
-    - `model`: Contém as classes de modelo.
-    - `MotivoTransformer.kt`: Descrição do arquivo.
-    - `MunicipioTransformer.kt`: Descrição do arquivo.
-    - `NaturezaJuridicaPipeline.kt`: Descrição do arquivo.
-    - `PaisPipeline.kt`: Descrição do arquivo.
-    - `pipelines`: Descrição do diretório.
-    - `QualificacaoPipeline.kt`: Descrição do arquivo.
-    - `transformers`: Descrição do diretório.
-- `src/main/resources`: Contém os recursos do projeto.
-- `src/test`: Contém os testes do projeto.
+- `src/main/kotlin`: Contains the project's source code.
+    - `AllFilesPipelines.kt`: File description.
+    - `converter`: Contains classes for data conversion.
+    - `EmpresaTransformer.kt`: File description.
+    - `extensions`: Directory description.
+    - `model`: Contains model classes.
+    - `MotivoTransformer.kt`: File description.
+    - `MunicipioTransformer.kt`: File description.
+    - `NaturezaJuridicaPipeline.kt`: File description.
+    - `PaisPipeline.kt`: File description.
+    - `pipelines`: Directory description.
+    - `QualificacaoPipeline.kt`: File description.
+    - `transformers`: Directory description.
+- `src/main/resources`: Contains project resources.
+- `src/test`: Contains project tests.
 
-## Como Construir
+## How to Build
 
-Para construir o projeto, execute o seguinte comando no terminal:
+To build the project, run the following command in the terminal:
 
 ```sh
 mvn clean install
 ```
 
-## Como Executar
+## How to Execute
 
-Para executar o projeto, execute o seguinte comando no terminal:
+To execute the project, run the following command in the terminal:
 
 ```sh
 mvn exec:java -Dexec.mainClass="br.com.dataflow.pipeline.EmpresaPipeline" 
@@ -40,17 +40,17 @@ mvn exec:java -Dexec.mainClass="br.com.dataflow.pipeline.EmpresaPipeline"
             --output=gs://<bucket>/2019-12-01/EMPRECSV.DEC"
 ```
 
-## Como Executar os Testes
+## How to Run Tests
 
-Para executar os testes do projeto, execute o seguinte comando no terminal:
+To run the project tests, execute the following command in the terminal:
 
 ```sh
 mvn test
 ```
 
-## Como executar o projeto no Google Cloud Dataflow com o Apache Beam
+## How to run the project on Google Cloud Dataflow with Apache Beam
 
-Para executar o projeto no Google Cloud Dataflow com o Apache Beam, execute o seguinte comando no terminal:
+To run the project on Google Cloud Dataflow with Apache Beam, execute the following command in the terminal:
 
 ```sh
 mvn compile exec:java -Dexec.mainClass="br.com.dataflow.pipeline.EmpresaPipeline" 
@@ -64,6 +64,6 @@ mvn compile exec:java -Dexec.mainClass="br.com.dataflow.pipeline.EmpresaPipeline
                     --numWorkers=1"
 ```
 
-## Licença
+## License
 
-Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
