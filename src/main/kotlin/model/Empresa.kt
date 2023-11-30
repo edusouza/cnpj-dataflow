@@ -12,4 +12,4 @@ data class Empresa(
     val capitalSocial: String? = null,
     val porteEmpresa: String? = null,
     val enteFederativo: String? = null
-)
+) : Model

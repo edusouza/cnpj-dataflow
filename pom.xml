@@ -61,7 +61,7 @@
             <groupId>org.apache.beam</groupId>
             <artifactId>beam-runners-direct-java</artifactId>
             <version>${beam.version}</version>
-            <scope>test</scope>
+            <scope>runtime</scope>
         </dependency>
 
         <!-- Dependencies below this line are specific dependencies needed by the examples code. -->
