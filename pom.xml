@@ -19,7 +19,7 @@
         <beam.version>2.52.0</beam.version>
         <libraries-bom.version>26.27.0</libraries-bom.version>
         <google-api-client.version>2.2.0</google-api-client.version>
-        <guava.version>32.0.0-jre</guava.version>
+        <guava.version>33.7.1-jre</guava.version>
     </properties>
 
     <repositories>
